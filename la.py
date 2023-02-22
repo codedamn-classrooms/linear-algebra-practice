@@ -10,17 +10,27 @@ matrix_B = np.array([[2, 4, 6],
                     [2, 4, 6],
                     [2, 4, 6]])
 
-# Add two matrix
-matrix_A + matrix_B
+# Add two matrix and store it in matrix_C
+# ----- Edit the code below -----
+matrix_C = np.empty()
+# ----- END -----
 
-# Find inverse of the following matrix
+# Find inverse of the following matrix and store it in variable mat_A_inv
 mat_A = np.array([[1, 0, 1, 2], 
                   [-1, 1, 2, 0], 
                   [-2, 0, 1, 2], 
                   [0, 0, 0, 1]])
 
+# ----- Edit the code below -----
+mat_A_inv = np.empty()
+# ----- END -----
+
 # Find eigenvectors and eignevalues of the following matrix
 matrix_A = np.array([[4, -3, -3],
                     [3, -2, -3],
                     [-1, 1, 2]])
+
+# ----- Edit the code below -----
+eigenvalues, eigenvectors = np.empty(), np.empty()
+# ----- END -----
 
